@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>webuplaoder</title>
+</head>
+<link rel="stylesheet" type="text/css" href="./js/webuploader/webuploader.css"/>
+<link rel="stylesheet" type="text/css" href="./css/uploader.css"/>
+<body>
+	<h1>webuploader使用案例</h1>
+	<div class="clearfix">
+		<label><strong class="red">*</strong>电路图：</label>
+		<div class="file-box">
+			<span class="fileList fileList_1" >
+				<span class="file-item">
+					<div class="text-center fileName"></div>
+					<div class="del"><i class="iconfont iconshanchu"></i></div>
+				</span>
+			</span>             
+			<div class="upload-file  filePicker_1"></div>
+			<span class="f12 gray-9 text-msg">至少1张（电路分布图和配电图）</span>   
+		</div>
+	</div>
+</body>
+</html>
+<script src="./js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="./js/webuploader/webuploader.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="./js/uploader.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	upload('1','ztb',10,'','jiegou_audit_photo');
+</script>

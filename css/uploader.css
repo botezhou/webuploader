@@ -1,0 +1,159 @@
+.upload-file{
+	width: 48px;
+	height: 48px;
+	background: url('../img/add.png') no-repeat center center;
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+}
+.webuploader-pick {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+	filter: alpha(opacity=0);
+}
+.webuploader-pick+div{
+	width: 100% !important;
+	height: 100% !important;
+}
+.picker .webuploader-pick {
+	padding: 0px 12px;
+	display: block;
+}
+.btn-wrap {
+	border-bottom: 1px solid #ccc;
+	padding: 5px;
+	overflow: hidden;
+}
+.fileList {
+	width: 100%;
+	overflow: hidden;
+}
+.fileList .file-item {
+	position: relative;
+	display: inline-block;
+	margin-right: 15px;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.fileList .file-item img{
+	width: 100px;
+	height: 100px;
+}
+.fileList .file-item .fileName{
+	line-height: 16px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: rgba(0,0,0,0.3);
+	color:#fff;
+}
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+
+.del {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 100%;
+	color: red;
+	height: 0;
+	overflow: hidden;
+	background: rgba(0, 0, 0, 0.5);
+	text-align: right;
+	padding-right: 10px;
+	cursor: pointer;
+	line-height: 25px;
+}
+.progress {
+    height: 10px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.progress-bar {
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    line-height: 10px;
+    color: #fff;
+    text-align: center;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    background-color: #5bc0de;
+}
+.uploaderSuccess {
+	bottom: 16px;
+	right: 0;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: url(/pc/img/usercenter/success.png) no-repeat;
+}
+.file-box .text-msg{
+	display: inline-block;
+	height: 48px;
+	vertical-align: top;
+}
+.idcard-box>p{
+	 text-align: center;
+	 margin-bottom: 20px;
+}
+.idcard-box .idcard-img-box{
+	width: 160px;
+    height: 116px;  
+    background-size: cover;
+}
+.idcard-box .idcard-img-box.idcard-just{
+	background: url('/pc/img/usercenter/sfzz.jpg') no-repeat;	
+}
+.idcard-box .idcard-img-box.idcard-back{
+	background: url('/pc/img/usercenter/sfzf.jpg') no-repeat;
+}
+.idcard-box .upload-fj-btn{
+	width: 100px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 3px;
+    text-align: center;
+    background: #fbfbfb;
+    border: 1px solid #aaaaaa;
+    text-indent: 0px;
+    padding: 0;
+    margin: 10px auto;
+}
+.idcard-box .webuploader-pick {
+    opacity: 1;
+    background: #fff;
+    padding: 0;
+    color: #000;
+}
+.message-wrap .idcard-box .webuploader-pick{
+	color: #ff5d1d;
+	font-size: 14px;
+}
+.idcard-box .idcard-img-box .fileList .file-item{
+	width: 160px;
+    height: 116px; 
+}
+.idcard-box .idcard-img-box .fileList .file-item img{
+	width: 100%;
+	height: 100%;
+}
+.info-box div.clearfix{
+	margin-top: 15px;
+}
